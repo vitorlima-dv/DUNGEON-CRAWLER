@@ -3,6 +3,7 @@ Desenvolvedores:
 Enzo Vitor de Lima Maciel
 
 História do Jogo:
+
 Há muitos anos, a vila de Raven Hollow era um lugar pacífico, protegido por sua guardiã, Ashley Calhoun, conhecida por todos apenas como Ash. Durante muito tempo, ela acreditou que seria capaz de proteger seu povo de qualquer ameaça que surgisse.
 
 Entretanto, em uma noite sem lua, criaturas monstruosas emergiram da Floresta Sombria sob o comando de uma entidade conhecida como The Fallen Sovereign, também chamado de O Devorador de Cinzas. O exército de monstros devastou Raven Hollow, destruindo casas, separando famílias e deixando a vila completamente arruinada.
