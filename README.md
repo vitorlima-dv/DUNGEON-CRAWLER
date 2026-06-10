@@ -1,6 +1,6 @@
 # DUNGEON CRAWLER
 
-## Desenvolvedores
+## Desenvolvedor
 
 * Enzo Vitor de Lima Maciel
 
@@ -144,7 +144,13 @@ Persegue Ashley tentando reduzir a distância entre os dois personagens.
 
 ## Boss Final (Z)
 
-The Fallen Sovereign representa o maior desafio do jogo, possuindo comportamento próprio e sendo o último obstáculo antes da obtenção da Joia Dourada.
+O boss final do jogo é o temido The Fallen Sovereign, o governante caído responsável pela destruição de Raven Hollow.
+
+Além de perseguir a personagem durante o combate, ele possui uma habilidade exclusiva chamada BoxJail.
+
+Ao ativar o BoxJail, o boss cria instantaneamente uma prisão de caixas ao redor de Ashley, restringindo sua movimentação e obrigando o jogador a reagir rapidamente para escapar. Essa mecânica permite que o chefe reduza a distância entre ele e o jogador, aumentando significativamente a pressão durante a batalha final.
+
+O BoxJail foi desenvolvido para tornar o confronto mais estratégico e desafiador, diferenciando o comportamento do boss dos demais inimigos encontrados ao longo da dungeon.
 
 ---
 
@@ -170,12 +176,9 @@ Durante o desenvolvimento deste projeto foram utilizadas ferramentas de Intelig�
 As ferramentas foram utilizadas exclusivamente como apoio ao aprendizado, pesquisa e desenvolvimento do projeto, auxiliando em atividades como:
 
 * Esclarecimento de conceitos da linguagem C.
-* Revisão de lógica de programação.
-* Sugestões para organização do código.
-* Auxílio na criação da narrativa e documentação do projeto.
 * Esclarecimento de dúvidas sobre implementação de mecânicas do jogo.
 
-Todo o código foi analisado, compreendido e adaptado pelos desenvolvedores antes de sua utilização no projeto, conforme as orientações da disciplina.
+Todo o código foi analisado, compreendido e adaptado pelo desenvolvedor antes de sua utilização no projeto, conforme as orientações da disciplina.
 
 ---
 
