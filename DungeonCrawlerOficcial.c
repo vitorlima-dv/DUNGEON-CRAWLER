@@ -30,7 +30,7 @@ void menu()
 }
 
 /* INEXISTENTE
-   Chama quando o jogador digita uma opção inválida no menu.*/
+   Chama quando o jogador digita uma opÃ§Ã£o invÃ¡lida no menu.*/
 void inexistente()
 {
     printf("Esse comando nao existe... Redirecionando de volta ao Menu...\n");
@@ -39,51 +39,51 @@ void inexistente()
 }
 
 /* TUTORIAL
-   Exibe a história completa do jogo, o significado de cada
-   símbolo do mapa e os comandos disponíveis para o jogador.*/
+   Exibe a histÃ³ria completa do jogo, o significado de cada
+   sÃ­mbolo do mapa e os comandos disponÃ­veis para o jogador.*/
 void tutorial()
 {
-    printf("História\n");
-    printf("Se você clicou no Tutorial, quer dizer que você está afim de entender sobre as mecânicas do Game, CALMA!! Antes de tudo, vamos entender um pouco sobre a história do DUNGEON CRAWLER:\n\n");
-    printf("PRÓLOGO\n");
-    printf("Meu nome é Ashley Calhoun.\nMas há muito tempo ninguém me chama assim.\n\n");
+    printf("HistÃ³ria\n");
+    printf("Se vocÃª clicou no Tutorial, quer dizer que vocÃª estÃ¡ afim de entender sobre as mecÃ¢nicas do Game, CALMA!! Antes de tudo, vamos entender um pouco sobre a histÃ³ria do DUNGEON CRAWLER:\n\n");
+    printf("PRÃ“LOGO\n");
+    printf("Meu nome Ã© Ashley Calhoun.\nMas hÃ¡ muito tempo ninguÃ©m me chama assim.\n\n");
     printf("Na minha vila, todos me conheciam apenas como Ash.\n\n");
-    printf("Eu era a guardiã do povoado de Raven Hollow, uma pequena comunidade cercada por florestas e montanhas. Durante anos, vivi acreditando que poderia proteger aquelas pessoas de qualquer ameaça. Eu estava errada...\n\n");
+    printf("Eu era a guardiÃ£ do povoado de Raven Hollow, uma pequena comunidade cercada por florestas e montanhas. Durante anos, vivi acreditando que poderia proteger aquelas pessoas de qualquer ameaÃ§a. Eu estava errada...\n\n");
     printf("Numa noite sem lua, criaturas surgiram das profundezas da Floresta Sombria.\n\n");
-    printf("Elas eram lideradas por uma entidade conhecida apenas como O Devorador de Cinzas, um antigo senhor da guerra cuja existência era considerada uma lenda. Seu exército de monstros avançou sobre Raven Hollow como uma tempestade.\n\n");
-    printf("Eu lutei... Lutei até minhas forças se esgotarem.\n\n");
-    printf("Mas não foi suficiente. As casas foram destruídas. As ruas ficaram cobertas por fogo e ruinas. Meus amigos desapareceram. Minha família foi perdida em meio ao caos. E eu sobrevivi.\n\n");
+    printf("Elas eram lideradas por uma entidade conhecida apenas como O Devorador de Cinzas, um antigo senhor da guerra cuja existÃªncia era considerada uma lenda. Seu exÃ©rcito de monstros avanÃ§ou sobre Raven Hollow como uma tempestade.\n\n");
+    printf("Eu lutei... Lutei atÃ© minhas forÃ§as se esgotarem.\n\n");
+    printf("Mas nÃ£o foi suficiente. As casas foram destruÃ­das. As ruas ficaram cobertas por fogo e ruinas. Meus amigos desapareceram. Minha famÃ­lia foi perdida em meio ao caos. E eu sobrevivi.\n\n");
     printf("Desde aquele dia, carrego um peso maior que qualquer armadura... A culpa.\n\n");
     printf("Anos se passaram. Enquanto vagava sem destino, ouvi uma antiga historia. Uma lenda esquecida pelo tempo.\n\n");
-    printf("Diziam que, séculos atrás, um rei cruel e obcecado por poder governou estas terras. Temendo que sua maior relíquia fosse roubada, ele a escondeu nas profundezas de uma fortaleza subterrânea.\n\n");
-    printf("Para protegê-la, construiu armadilhas mortais. Aprisionou criaturas monstruosas. E lancou uma maldicao sobre toda a fortaleza.\n\nA reliquia ficou conhecida como A Joia Dourada.\n\nUm artefato capaz de realizar um único desejo.\n\n");
-    printf("Centenas de aventureiros tentaram encontrá-la... Mas nenhum retornou.\n\n");
-    printf("Mas para mim, isso não importa.\n\n");
-    printf("Se a lenda for verdadeira, ainda existe esperança. A esperança de poder restaurar Raven Hollow.\n\n");
+    printf("Diziam que, sÃ©culos atrÃ¡s, um rei cruel e obcecado por poder governou estas terras. Temendo que sua maior relÃ­quia fosse roubada, ele a escondeu nas profundezas de uma fortaleza subterrÃ¢nea.\n\n");
+    printf("Para protegÃª-la, construiu armadilhas mortais. Aprisionou criaturas monstruosas. E lancou uma maldicao sobre toda a fortaleza.\n\nA reliquia ficou conhecida como A Joia Dourada.\n\nUm artefato capaz de realizar um Ãºnico desejo.\n\n");
+    printf("Centenas de aventureiros tentaram encontrÃ¡-la... Mas nenhum retornou.\n\n");
+    printf("Mas para mim, isso nÃ£o importa.\n\n");
+    printf("Se a lenda for verdadeira, ainda existe esperanÃ§a. A esperanÃ§a de poder restaurar Raven Hollow.\n\n");
     printf("Posso trazer de volta aqueles que perdi.\n\n");
     printf("Posso dar ao meu povo a vida que lhes foi roubada.\n\n");
-    printf("Mesmo que a fortaleza seja um túmulo.\n\n");
+    printf("Mesmo que a fortaleza seja um tÃºmulo.\n\n");
     printf("Mesmo que monstros me aguardem em cada corredor.\n\n");
     printf("Mesmo que eu nunca mais veja a luz do sol.\n\n");
     printf("Eu seguirei em frente.\n\n");
-    printf("Meu nome é Ashley Calhoun, E esta é minha última chance de corrigir o passado.\n\n");
-    printf("Ok, agora que você sabe a história do jogo, o seu objetivo e chegar até a última fase da masmorra e derrotar o temido boss ###The Fallen Sovereign###.\n\n");
+    printf("Meu nome Ã© Ashley Calhoun, E esta Ã© minha Ãºltima chance de corrigir o passado.\n\n");
+    printf("Ok, agora que vocÃª sabe a histÃ³ria do jogo, o seu objetivo e chegar atÃ© a Ãºltima fase da masmorra e derrotar o temido boss ###The Fallen Sovereign###.\n\n");
     printf("Simbolos\n");
-    printf("Os símbolos desse jogo não são aleatórios!!! Entenda o que cada símbolo faz.\n");
+    printf("Os sÃ­mbolos desse jogo nÃ£o sÃ£o aleatÃ³rios!!! Entenda o que cada sÃ­mbolo faz.\n");
     printf("Simbolo\tSignificado\n");
     printf("<\tJogador olhando para a esquerda\n");
     printf("^\tJogador olhando para cima\n");
     printf(">\tJogador olhando para a direita\n");
     printf("v\tJogador olhando para baixo\n");
-    printf("*\tParede: O jogador não pode passar\n");
+    printf("*\tParede: O jogador nÃ£o pode passar\n");
     printf("#\tEspinho: O jogador morre ao passar por cima\n");
-    printf("k\tCaixa: O jogador não pode passar, mas pode ser destruída com ataque\n");
-    printf("O\tBotao: Executa uma ação ao ser pressionado\n");
-    printf("D\tPorta fechada: O jogador não pode passar\n");
+    printf("k\tCaixa: O jogador nÃ£o pode passar, mas pode ser destruÃ­da com ataque\n");
+    printf("O\tBotao: Executa uma aÃ§Ã£o ao ser pressionado\n");
+    printf("D\tPorta fechada: O jogador nÃ£o pode passar\n");
     printf("@\tChave: Abre uma porta fechada ao interagir\n");
     printf("=\tPorta aberta: O jogador pode passar\n");
-    printf("L\tEscada: Leva o jogador para a próxima fase\n");
-    printf("X\tMonstro Tipo 1: movimento aleatório\n");
+    printf("L\tEscada: Leva o jogador para a prÃ³xima fase\n");
+    printf("X\tMonstro Tipo 1: movimento aleatÃ³rio\n");
     printf("Y\tMonstro Tipo 2: persegue o jogador\n");
     printf("Z\tBoss Final: The Fallen Sovereign\n");
     printf("Comandos\n");
@@ -102,22 +102,22 @@ void telaVitoria()
 {
     system("cls");
     printf("============================================\n");
-    printf("              VOCÊ VENCEU!!!\n");
+    printf("              VOCÃŠ VENCEU!!!\n");
     printf("============================================\n\n");
-    printf("A Joia Dourada estava lá.\n\n");
-    printf("Brilhando no escuro como uma estrela caída no fundo da terra.\n\n");
-    printf("Com mãos tremulas, Ashley Calhoun a segurou pela primeira vez.\n\n");
+    printf("A Joia Dourada estava lÃ¡.\n\n");
+    printf("Brilhando no escuro como uma estrela caÃ­da no fundo da terra.\n\n");
+    printf("Com mÃ£os tremulas, Ashley Calhoun a segurou pela primeira vez.\n\n");
     printf("E desejou.\n\n");
-    printf("Não poder. Não vingança. Não imortalidade.\n\n");
+    printf("NÃ£o poder. NÃ£o vinganÃ§a. NÃ£o imortalidade.\n\n");
     printf("Ela desejou Raven Hollow de volta.\n\n");
     printf("As casas reerguidas. As ruas limpas.\n");
     printf("Os rostos que ela amava, sorrindo de volta pra ela.\n\n");
-    printf("A Joia brilhou uma última vez.\n\n");
+    printf("A Joia brilhou uma Ãºltima vez.\n\n");
     printf("E o desejo foi concedido.\n\n");
     printf("\"Ash?\"\n\n");
-    printf("Era a voz da sua mãe.\n\n");
-    printf("Ela não precisava mais de nenhuma relíquia. Nenhuma lenda.\n");
-    printf("Só precisava chegar em casa.\n\n");
+    printf("Era a voz da sua mÃ£e.\n\n");
+    printf("Ela nÃ£o precisava mais de nenhuma relÃ­quia. Nenhuma lenda.\n");
+    printf("SÃ³ precisava chegar em casa.\n\n");
     printf("E pela primeira vez em anos, Ashley Calhoun sorriu de verdade.\n\n");
     printf("============================================\n");
     printf("                   FIM\n");
@@ -138,10 +138,10 @@ void gameOver()
     printf("============================================\n");
     printf("               GAME OVER\n");
     printf("============================================\n\n");
-    printf("A masmorra reivindicou mais uma vítima.\n\n");
-    printf("A lenda da Joia Dourada permanecerá como lenda.\n\n");
-    printf("Raven Hollow permanecerá em ruínas.\n\n");
-    printf("E o nome de Ashley Calhoun será esquecido...\n\n");
+    printf("A masmorra reivindicou mais uma vÃ­tima.\n\n");
+    printf("A lenda da Joia Dourada permanecerÃ¡ como lenda.\n\n");
+    printf("Raven Hollow permanecerÃ¡ em ruÃ­nas.\n\n");
+    printf("E o nome de Ashley Calhoun serÃ¡ esquecido...\n\n");
     printf("...assim como todos os outros que tentaram antes dela.\n\n");
     printf("============================================\n");
     system("pause");
@@ -213,14 +213,14 @@ void Vila()
             printf("\n");
         }
 
-        /* Lê a tecla pressionada sem esperar o Enter. */
+        /* LÃª a tecla pressionada sem esperar o Enter. */
         comando = getch();
 
         /* Movimentacao para cima */
         if(comando == 'w' || comando == 'W')
         {
             direcao = '^';
-            /* Só move se a celula de cima não for parede, NPC ou entrada */
+            /* SÃ³ move se a celula de cima nÃ£o for parede, NPC ou entrada */
             if(vila[jogadorLinha-1][jogadorColuna] != '*'
             && vila[jogadorLinha-1][jogadorColuna] != 'N'
             && vila[jogadorLinha-1][jogadorColuna] != 'L')
@@ -232,7 +232,7 @@ void Vila()
         else if(comando == 's' || comando == 'S')
         {
             direcao = 'v';
-            /* Só move se a célula de baixo não for parede nem entrada */
+            /* SÃ³ move se a cÃ©lula de baixo nÃ£o for parede nem entrada */
             if(vila[jogadorLinha+1][jogadorColuna] != '*'
             && vila[jogadorLinha+1][jogadorColuna] != 'L')
             {
@@ -291,31 +291,31 @@ void Vila()
                 /* Se ja escolheu a arma, nao deixa escolher de novo */
                 if(arma != 0)
                 {
-                    printf("Ser misterioso\nNão seja estúpida. Voce já escolheu sua arma.\n");
+                    printf("Ser misterioso\nNÃ£o seja estÃºpida. Voce jÃ¡ escolheu sua arma.\n");
                     system("pause");
                 }
                 else
                 {
-                    /* Diálogo do NPC e escolha da arma */
+                    /* DiÃ¡logo do NPC e escolha da arma */
                     printf("Ser misterioso\n");
-                    printf("Olá querida Ash, como está?\n");
+                    printf("OlÃ¡ querida Ash, como estÃ¡?\n");
                     printf("Ashley Calhoun\n");
-                    printf("1. ...Bem? Quem é você?\n");
-                    printf("2. Como você sabe o meu nome?\n");
+                    printf("1. ...Bem? Quem Ã© vocÃª?\n");
+                    printf("2. Como vocÃª sabe o meu nome?\n");
                     scanf("%d", &respostaNPC);
                     if(respostaNPC == 1 || respostaNPC == 2)
                     {
                         printf("Ser misterioso\n");
-                        printf("Essa informação é irrelevante, o que importa nesse momento é qual arma você deseja escolher, qual destas opções você prefere?\n");
+                        printf("Essa informaÃ§Ã£o Ã© irrelevante, o que importa nesse momento Ã© qual arma vocÃª deseja escolher, qual destas opÃ§Ãµes vocÃª prefere?\n");
                         printf("1. Espada\n");
                         printf("2. Arco e flecha\n");
                         printf("3. Cajado\n");
                         printf("Ashley Calhoun: ");
                         scanf("%d", &arma);
-                        /*Só aceita 1, 2 ou 3 */
+                        /*SÃ³ aceita 1, 2 ou 3 */
                         while(arma < 1 || arma > 3)
                         {
-                            printf("Perdão, não entendi direito...\n");
+                            printf("PerdÃ£o, nÃ£o entendi direito...\n");
                             scanf("%d", &arma);
                         }
                         if(arma == 1)
@@ -331,7 +331,7 @@ void Vila()
                             printf("Arma escolhida: Cajado\n");
                         }
                         printf("Ser misterioso\n");
-                        printf("Excelente escolha, afinal de contas, independente da arma que você escolher o seu fim já está destinado.\n");
+                        printf("Excelente escolha, afinal de contas, independente da arma que vocÃª escolher o seu fim jÃ¡ estÃ¡ destinado.\n");
                     }
                     system("pause");
                 }
@@ -342,7 +342,7 @@ void Vila()
                 if(arma == 0)
                 {
                     printf("Ash olha para a entrada...\n");
-                    printf("\"Preciso de uma arma antes de entrar lá.\"\n");
+                    printf("\"Preciso de uma arma antes de entrar lÃ¡.\"\n");
                     system("pause");
                 }
                 else
@@ -392,7 +392,7 @@ void realizarAtaque10(char mapa[10][10], int jogLinha, int jogColuna, char direc
                     if(mapa[l][c] == 'k' || mapa[l][c] == 'X'
                     || mapa[l][c] == 'Y' || mapa[l][c] == 'Z')
                     {
-                        mapa[l][c] = 'z'; /* destroi o que estiver la */
+                        mapa[l][c] = ' '; /* destroi o que estiver la */
                     }
                 }
             }
@@ -575,7 +575,7 @@ void realizarAtaque10(char mapa[10][10], int jogLinha, int jogColuna, char direc
             {
                 if(dl == 0 && dc == 0)
                 {
-                    continue; /* pula a célula do jogador */
+                    continue; /* pula a cÃ©lula do jogador */
                 }
                 l = jogLinha + dl;
                 c = jogColuna + dc;
@@ -1072,7 +1072,7 @@ void PrimeiroAndar()
         }
         else
         {
-            printf("NÃO");
+            printf("NÃƒO");
         }
         printf("\n\n");
 
@@ -1107,7 +1107,7 @@ void PrimeiroAndar()
                 if(vidas <= 0)
                 {
                     jogando = 0;
-                    return; /* sem vidas, encerra a função */
+                    return; /* sem vidas, encerra a funÃ§Ã£o */
                 }
                 PrimeiroAndar(); /* reinicia a fase do zero */
                 return;
@@ -1118,7 +1118,7 @@ void PrimeiroAndar()
                 temChave = 1;
                 mapa[jogadorLinha-1][jogadorColuna] = ' '; /* remove chave do mapa */
                 jogadorLinha--;
-                printf("Você pegou a chave!\n");
+                printf("VocÃª pegou a chave!\n");
                 system("pause");
             }
             /* Se nao for parede, caixa ou porta fechada, move */
@@ -1159,7 +1159,7 @@ void PrimeiroAndar()
                 temChave = 1;
                 mapa[jogadorLinha+1][jogadorColuna] = ' ';
                 jogadorLinha++;
-                printf("Você pegou a chave!\n");
+                printf("VocÃª pegou a chave!\n");
                 system("pause");
             }
             else if(mapa[jogadorLinha+1][jogadorColuna] != '*'
@@ -1198,7 +1198,7 @@ void PrimeiroAndar()
                 temChave = 1;
                 mapa[jogadorLinha][jogadorColuna-1] = ' ';
                 jogadorColuna--;
-                printf("Você pegou a chave!\n");
+                printf("VocÃª pegou a chave!\n");
                 system("pause");
             }
             else if(mapa[jogadorLinha][jogadorColuna-1] != '*'
@@ -1237,7 +1237,7 @@ void PrimeiroAndar()
                 temChave = 1;
                 mapa[jogadorLinha][jogadorColuna+1] = ' ';
                 jogadorColuna++;
-                printf("Você pegou a chave!\n");
+                printf("VocÃª pegou a chave!\n");
                 system("pause");
             }
             else if(mapa[jogadorLinha][jogadorColuna+1] != '*'
@@ -1282,7 +1282,7 @@ void PrimeiroAndar()
             {
                 temChave = 1;
                 mapa[aL][aC] = ' ';
-                printf("Você pegou a chave!\n");
+                printf("VocÃª pegou a chave!\n");
                 system("pause");
             }
             /* Tenta abrir a porta com a chave */
@@ -1297,7 +1297,7 @@ void PrimeiroAndar()
                 }
                 else
                 {
-                    printf("Esta porta está fechada. Você precisa de uma chave.\n");
+                    printf("Esta porta estÃ¡ fechada. VocÃª precisa de uma chave.\n");
                     system("pause");
                 }
             }
@@ -1312,8 +1312,8 @@ void PrimeiroAndar()
 
 /* SEGUNDO ANDAR - mapa 15x15
    MONSTRO X (aleatorio):
-   A cada turno, depois do jogador agir, sorteamos um número
-   aleatório de 0 a 3 usando rand()%4.
+   A cada turno, depois do jogador agir, sorteamos um nÃºmero
+   aleatÃ³rio de 0 a 3 usando rand()%4.
    0 = cima, 1 = baixo, 2 = esquerda, 3 = direita. */
 void SegundoAndar()
 {
@@ -1325,7 +1325,7 @@ void SegundoAndar()
     char comando;
     char direcao = '>';
 
-    /* Controle dos botoes: lógica binária */
+    /* Controle dos botoes: lÃ³gica binÃ¡ria */
     int botaoReal  = 0;
     int botaoBaixo = 0;
 
@@ -1420,7 +1420,7 @@ void SegundoAndar()
                 temChave++;
                 mapa[jogadorLinha-1][jogadorColuna] = ' ';
                 jogadorLinha--;
-                printf("Você pegou uma chave! Total: %d\n", temChave);
+                printf("VocÃª pegou uma chave! Total: %d\n", temChave);
                 system("pause");
             }
             else if(mapa[jogadorLinha-1][jogadorColuna] != '*'
@@ -1461,7 +1461,7 @@ void SegundoAndar()
                 temChave++;
                 mapa[jogadorLinha+1][jogadorColuna] = ' ';
                 jogadorLinha++;
-                printf("Você pegou uma chave! Total: %d\n", temChave);
+                printf("VocÃª pegou uma chave! Total: %d\n", temChave);
                 system("pause");
             }
             else if(mapa[jogadorLinha+1][jogadorColuna] != '*'
@@ -1543,7 +1543,7 @@ void SegundoAndar()
                 temChave++;
                 mapa[jogadorLinha][jogadorColuna+1] = ' ';
                 jogadorColuna++;
-                printf("Você pegou uma chave! Total: %d\n", temChave);
+                printf("VocÃª pegou uma chave! Total: %d\n", temChave);
                 system("pause");
             }
             else if(mapa[jogadorLinha][jogadorColuna+1] != '*'
@@ -1588,7 +1588,7 @@ void SegundoAndar()
             {
                 temChave++;
                 mapa[aL][aC] = ' ';
-                printf("Você pegou uma chave! Total: %d\n", temChave);
+                printf("VocÃª pegou uma chave! Total: %d\n", temChave);
                 system("pause");
             }
             else if(mapa[aL][aC] == 'D')
@@ -1602,7 +1602,7 @@ void SegundoAndar()
                 }
                 else
                 {
-                    printf("Você precisa de uma chave.\n");
+                    printf("VocÃª precisa de uma chave.\n");
                     system("pause");
                 }
             }
@@ -1631,12 +1631,12 @@ void SegundoAndar()
                             }
                         }
                         printf("*CLONK* - Os espinhos do corredor recuam!\n");
-                        printf("O caminho para a chave está aberto!\n");
+                        printf("O caminho para a chave estÃ¡ aberto!\n");
                         system("pause");
                     }
                     else
                     {
-                        printf("Esse botão já foi ativado.\n");
+                        printf("Esse botÃ£o jÃ¡ foi ativado.\n");
                         system("pause");
                     }
                 }
@@ -1676,7 +1676,7 @@ void SegundoAndar()
                     }
                     else
                     {
-                        printf("Esse botão já foi ativado.\n");
+                        printf("Esse botÃ£o jÃ¡ foi ativado.\n");
                         system("pause");
                     }
                 }
@@ -1706,7 +1706,7 @@ void SegundoAndar()
             }
         }
 
-        /* MOVIMENTO DO MONSTRO X1 (aleatório) */
+        /* MOVIMENTO DO MONSTRO X1 (aleatÃ³rio) */
         if(mon1L != -1)
         {
             int d = rand() % 4;
@@ -1732,10 +1732,10 @@ void SegundoAndar()
             if(n1L >= 0 && n1L < 15 && n1C >= 0 && n1C < 15
             && (mapa[n1L][n1C] == ' ' || mapa[n1L][n1C] == '='))
             {
-                mapa[mon1L][mon1C] = ' '; /* apaga o X da posição antiga */
+                mapa[mon1L][mon1C] = ' '; /* apaga o X da posiÃ§Ã£o antiga */
                 mon1L = n1L;
                 mon1C = n1C;
-                mapa[mon1L][mon1C] = 'X'; /* desenha o X na nova posição */
+                mapa[mon1L][mon1C] = 'X'; /* desenha o X na nova posiÃ§Ã£o */
             }
             /* Se o monstro esta na mesma celula que o jogador */
             if(mon1L == jogadorLinha && mon1C == jogadorColuna)
@@ -1753,7 +1753,7 @@ void SegundoAndar()
             }
         }
 
-        /* MOVIMENTO DO MONSTRO X2 (aleatório) */
+        /* MOVIMENTO DO MONSTRO X2 (aleatÃ³rio) */
         if(mon2L != -1)
         {
             int d    = rand() % 4;
@@ -1798,7 +1798,7 @@ void SegundoAndar()
             }
         }
 
-        /* MOVIMENTO DO MONSTRO X3 (aleatório) */
+        /* MOVIMENTO DO MONSTRO X3 (aleatÃ³rio) */
         if(mon3L != -1)
         {
             int d    = rand() % 4;
@@ -1849,9 +1849,9 @@ void SegundoAndar()
 
    MONSTRO Y (perseguicao simples).
 
-   BOSS Z (atravessa paredes, Prisão de caixas)
+   BOSS Z (atravessa paredes, PrisÃ£o de caixas)
 
-   escada aparece após o boss morrer  */
+   escada aparece apÃ³s o boss morrer  */
 void TerceiroAndar()
 {
     int linha, coluna;
@@ -2026,7 +2026,7 @@ void TerceiroAndar()
                 temChave++;
                 mapa[jogadorLinha-1][jogadorColuna] = ' ';
                 jogadorLinha--;
-                printf("Você pegou uma chave! Total: %d\n", temChave);
+                printf("VocÃª pegou uma chave! Total: %d\n", temChave);
                 system("pause");
             }
             else if(mapa[jogadorLinha-1][jogadorColuna] != '*'
@@ -2077,7 +2077,7 @@ void TerceiroAndar()
                 temChave++;
                 mapa[jogadorLinha+1][jogadorColuna] = ' ';
                 jogadorLinha++;
-                printf("Você pegou uma chave! Total: %d\n", temChave);
+                printf("VocÃª pegou uma chave! Total: %d\n", temChave);
                 system("pause");
             }
             else if(mapa[jogadorLinha+1][jogadorColuna] != '*'
@@ -2127,7 +2127,7 @@ void TerceiroAndar()
                 temChave++;
                 mapa[jogadorLinha][jogadorColuna-1] = ' ';
                 jogadorColuna--;
-                printf("Você pegou uma chave! Total: %d\n", temChave);
+                printf("VocÃª pegou uma chave! Total: %d\n", temChave);
                 system("pause");
             }
             else if(mapa[jogadorLinha][jogadorColuna-1] != '*'
@@ -2177,7 +2177,7 @@ void TerceiroAndar()
                 temChave++;
                 mapa[jogadorLinha][jogadorColuna+1] = ' ';
                 jogadorColuna++;
-                printf("Você pegou uma chave! Total: %d\n", temChave);
+                printf("VocÃª pegou uma chave! Total: %d\n", temChave);
                 system("pause");
             }
             else if(mapa[jogadorLinha][jogadorColuna+1] != '*'
@@ -2231,7 +2231,7 @@ void TerceiroAndar()
             {
                 temChave++;
                 mapa[aL][aC] = ' ';
-                printf("Você pegou uma chave! Total: %d\n", temChave);
+                printf("VocÃª pegou uma chave! Total: %d\n", temChave);
                 system("pause");
             }
             else if(mapa[aL][aC] == 'D')
@@ -2245,7 +2245,7 @@ void TerceiroAndar()
                 }
                 else
                 {
-                    printf("Você precisa de uma chave.\n");
+                    printf("VocÃª precisa de uma chave.\n");
                     system("pause");
                 }
             }
@@ -2314,7 +2314,7 @@ void TerceiroAndar()
                     }
                     else
                     {
-                        printf("Esse botão já foi ativado.\n");
+                        printf("Esse botÃ£o jÃ¡ foi ativado.\n");
                         system("pause");
                     }
                 }
@@ -2325,7 +2325,7 @@ void TerceiroAndar()
                     {
                         int r, c2;
                         botaoBoss = 1;
-                        bossSolto = 1; /* o boss começa a perseguir */
+                        bossSolto = 1; /* o boss comeÃ§a a perseguir */
                         mapa[23][1] = 'o';
                         for(r = 16; r <= 23; r++)
                         {
@@ -2337,13 +2337,13 @@ void TerceiroAndar()
                                 }
                             }
                         }
-                        printf("*BOOM* - O chão estremece! Os espinhos desaparecem!\n");
+                        printf("*BOOM* - O chÃ£o estremece! Os espinhos desaparecem!\n");
                         printf("The Fallen Sovereign foi solto!!!\n");
                         system("pause");
                     }
                     else
                     {
-                        printf("Esse botão já foi ativado.\n");
+                        printf("Esse botÃ£o jÃ¡ foi ativado.\n");
                         system("pause");
                     }
                 }
@@ -2689,12 +2689,12 @@ void TerceiroAndar()
                         bossVivo = 0;
                         mapa[23][22] = 'L';
                         printf("THE FALLEN SOVEREIGN FOI DERROTADO!!!\n");
-                        printf("A maldição se dissolve... A escada L apareceu!\n");
+                        printf("A maldiÃ§Ã£o se dissolve... A escada L apareceu!\n");
                         system("pause");
                     }
                     else
                     {
-                        printf("Você acertou o Fallen Sovereign! Vidas do boss: %d\n", bossVidas);
+                        printf("VocÃª acertou o Fallen Sovereign! Vidas do boss: %d\n", bossVidas);
                         system("pause");
                     }
                 }
@@ -2870,7 +2870,7 @@ void TerceiroAndar()
                         mapa[nl][nc] = 'k';
                     }
                 }
-                printf("The Fallen Sovereign lança um Box Jail!\n");
+                printf("The Fallen Sovereign lanÃ§a um Box Jail!\n");
                 printf("Quebre a caixa para escapar!\n");
                 system("pause");
             }
@@ -2902,8 +2902,8 @@ int main()
 
             printf("Iniciando o jogo...\n\n");
             printf("Ashley Calhoun fica parada na entrada de Raven Hollow.\n");
-            printf("O vento uiva entre as ruínas. Ela olha pra frente. Respira.\n");
-            printf("E dá o primeiro passo.\n\n");
+            printf("O vento uiva entre as ruÃ­nas. Ela olha pra frente. Respira.\n");
+            printf("E dÃ¡ o primeiro passo.\n\n");
             system("pause");
 
             /* Fluxo do jogo: cada fase so roda se o jogador ainda tiver vidas */
